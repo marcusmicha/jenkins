@@ -7,4 +7,4 @@ WORKDIR /jenkins
 
 #ENTRYPOINT python -u url.py $urls
 
-ENTRYPOINT python -u main.py
+ENTRYPOINT python -u main.py 10
